@@ -27,7 +27,7 @@ rootProject.allprojects {
         jcenter()
         maven { 
                url "http://maven.usehover.com/releases" 
-               allowInsecureProtocol = true
+              setAllowInsecureProtocol(true)
               }
     }
 }
