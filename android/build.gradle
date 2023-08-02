@@ -25,7 +25,8 @@ rootProject.allprojects {
     repositories {
         google()
         jcenter()
-        maven { url "http://maven.usehover.com/releases" 
+        maven { 
+               url "http://maven.usehover.com/releases" 
                allowInsecureProtocol = true
               }
     }
