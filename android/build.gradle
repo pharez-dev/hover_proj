@@ -5,7 +5,10 @@ buildscript {
     repositories {
         google()
         jcenter()
-        maven { url "http://maven.usehover.com/releases" }
+        maven { 
+              url "http://maven.usehover.com/releases" 
+              allowInsecureProtocol = true  
+              }
     }
 
     dependencies {
@@ -27,7 +30,7 @@ rootProject.allprojects {
         jcenter()
         maven { 
                url "https://maven.usehover.com/releases" 
-              setAllowInsecureProtocol(true)
+              allowInsecureProtocol = true
               }
     }
 }
